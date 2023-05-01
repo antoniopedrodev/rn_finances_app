@@ -9,16 +9,54 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/poppins": "^0.2.2",
+    "@hookform/resolvers": "^2.9.10",
+    "@react-native-async-storage/async-storage": "~1.17.3",
+    "@react-navigation/bottom-tabs": "^6.5.3",
+    "@react-navigation/native": "^6.1.2",
+    "@react-navigation/stack": "^6.3.16",
+    "@types/styled-components": "^5.1.26",
+    "babel-plugin-inline-dotenv": "^1.7.0",
+    "date-fns": "^2.29.3",
     "expo": "~46.0.16",
+    "expo-app-loading": "~2.1.0",
+    "expo-apple-authentication": "~4.3.0",
+    "expo-auth-session": "~3.7.4",
+    "expo-crypto": "~11.0.0",
+    "expo-font": "~10.2.0",
+    "expo-random": "~12.3.0",
     "expo-splash-screen": "~0.16.2",
     "expo-status-bar": "~1.4.0",
+    "expo-web-browser": "~11.0.0",
+    "intl": "^1.2.5",
+    "phosphor-react-native": "^1.1.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-native": "0.69.6",
-    "react-native-web": "~0.18.7"
+    "react-hook-form": "^7.41.3",
+    "react-native": "0.69.9",
+    "react-native-gesture-handler": "~2.5.0",
+    "react-native-responsive-fontsize": "^0.5.1",
+    "react-native-safe-area-context": "4.3.1",
+    "react-native-screens": "~3.15.0",
+    "react-native-svg": "12.3.0",
+    "react-native-svg-transformer": "^1.0.0",
+    "react-native-uuid": "^2.0.1",
+    "react-native-web": "~0.18.7",
+    "styled-components": "^5.3.6",
+    "victory-native": "^36.6.8",
+    "yup": "^0.32.11",
+    "react-native-reanimated": "~2.9.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@types/jest": "^29.2.0",
+    "@types/react": "^18.0.23",
+    "@types/react-native": "^0.70.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "typescript": "^4.8.4"
+  },
+  "resolutions": {
+    "@types/react": "^17"
   },
   "private": true
 }
